@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   function cpuHeavyTask() {
     const start = Date.now();
-    while (Date.now() - start < 30000) {
+    while (Date.now() - start < 45000) {
       Math.sqrt(Math.random());
     }
   }
