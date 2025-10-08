@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   function cpuHeavyTask() {
     const start = Date.now();
-    while (Date.now() - start < 30000) {
+    while (Date.now() - start < 45000) {
       Math.sqrt(Math.random());
     }
   }
@@ -88,7 +88,7 @@ export default function Home() {
             width={16}
             height={16}
           />
-          Examples
+          Examples you can see
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
